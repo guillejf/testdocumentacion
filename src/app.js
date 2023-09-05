@@ -11,9 +11,7 @@ import __dirname from "./utils.js";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const connection = mongoose.connect(
-  `mongodb+srv://guillermofergnani:DBeXuiDCQMqLyMTa@51380.yhqtnxt.mongodb.net/pets`
-);
+const connection = mongoose.connect(``);
 
 const swaggerOptions = {
   definition: {
